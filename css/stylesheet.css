@@ -1,24 +1,157 @@
 body {
   padding: 0;
-  margin: 0;
-  background: #f7f7f7;
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
 }
 
-.header {
-  background-image: url("../images/sabrinaprinz.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 800px;
-  width: 100%;
-  background-position: center center;
+/*Sprechblase gelb Pfeil nach unten*/
+.bubble
+{
+position: relative;
+width: auto;
+height: 800px;
+background: #ffffaa;
 }
 
-h1 {
-  font-family: Arial, sans-serif;
-  font-size: 100px;
-  line-height: 130px;
-  margin: 0;
+.bubble:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 40px 65px 0;
+border-color: #ffffaa transparent;
+display: block;
+z-index: 1;
+bottom: -40px;
+left: 45%;
+}
+
+/*Sprechblase gelb Pfeil nach oben*/
+.bubbletop {
   position: relative;
+  width: auto;
+  height: 450px;
+  background: #ffffaa;
+}
+
+.bubbletop:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 65px 40px;
+  border-color: #ffffaa transparent;
+  display: block;
+  z-index: 1;
+  top: -40px;
+  left: 45%;
+}
+
+/*Headline in Sprechbalse rechts*/
+.headerright {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Arial, sans-serif;
+  font-size: 80px;
+  line-height: 30px;
+  text-align: left;
+  padding-top: 80px;
+  float: right;
+  width: 51%;
+}
+
+/*Fließtext in Sprechbalse links*/
+.left {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 10px;
+  text-align: right;
+  padding-top: 470px;
+  float: left;
+  width: 46%;
+}
+
+/*ideen grafikdesign fotografie*/
+#container {
+	width: 100%;
+	height: 450px;
+	background: white;
+	display: -webkit-flex;
+	display: flex;
+}
+
+#box1 {
+	-webkit-flex: 1;
+	flex: 1;
+	flex-direction: row;
+}
+
+#box2 {
+	-webkit-flex: 1;
+	flex: 1;
+	flex-direction: row;
+}
+
+#box3 {
+	-webkit-flex: 1;
+	flex: 1;
+	flex-direction: row;
+}
+
+/*Schrift ideen grafikdesign fotografie*/
+h2 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
   text-align: center;
-  top: 20%;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.p1 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+}
+
+/*Headline in Sprechbalse links*/
+.headerleft {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Arial, sans-serif;
+  font-size: 80px;
+  line-height: 30px;
+  text-align: right;
+  padding-top: 100px;
+  float: left;
+  width: 49%;
+}
+
+/*Fließtext in Sprechbalse rechts*/
+.right {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 10px;
+  text-align: left;
+  padding-top: 200px;
+  float: right;
+  width: 46%;
+}
+
+/*Feld Arbeiten UNBEDINGT FARBE ANPASSEN*/
+#containerwork {
+	width: 100%;
+	height: auto;
+	background: #ffffaa;
+	display: -webkit-flex;
+	display: flex;
+}
+
+#box {
+	-webkit-flex: 1;
+	flex: 1;
+	flex-direction: row;
 }
