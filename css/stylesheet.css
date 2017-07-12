@@ -23,7 +23,7 @@ border-color: #ffffaa transparent;
 display: block;
 z-index: 1;
 bottom: -40px;
-left: 45%;
+left: 46%;
 }
 
 /*Sprechblase gelb Pfeil nach oben*/
@@ -43,7 +43,7 @@ left: 45%;
   display: block;
   z-index: 1;
   top: -40px;
-  left: 45%;
+  left: 46%;
 }
 
 /*Headline in Sprechbalse rechts*/
@@ -73,7 +73,7 @@ left: 45%;
 /*ideen grafikdesign fotografie*/
 #container {
 	width: 100%;
-	height: 450px;
+	height: auto;
 	background: white;
 	display: -webkit-flex;
 	display: flex;
@@ -115,6 +115,7 @@ h2 {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 100px;
+  padding-bottom: 80px;
 }
 
 /*Headline in Sprechbalse links*/
