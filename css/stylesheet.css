@@ -27,14 +27,14 @@ left: 46%;
 }
 
 /*Sprechblase gelb Pfeil nach oben*/
-.bubbletop {
+.bubbletop1 {
   position: relative;
   width: auto;
   height: 450px;
   background: #ffffaa;
 }
 
-.bubbletop:after {
+.bubbletop1:after {
   content: '';
   position: absolute;
   border-style: solid;
@@ -46,7 +46,7 @@ left: 46%;
   left: 46%;
 }
 
-/*Headline in Sprechbalse rechts*/
+/*Headline in Sprechblase rechts*/
 .headerright {
   color: rgba(0, 0, 0, 0.8);
   font-family: Arial, sans-serif;
@@ -58,7 +58,7 @@ left: 46%;
   width: 51%;
 }
 
-/*Fließtext in Sprechbalse links*/
+/*Fließtext in Sprechblase links*/
 .left {
   color: rgba(0, 0, 0, 0.8);
   font-family: Arial, sans-serif;
@@ -118,28 +118,35 @@ h2 {
   padding-bottom: 80px;
 }
 
-/*Headline in Sprechbalse links*/
+/*Schrift Über mich, work und kontakt*/
+#containerfond {
+	width: 100%;
+	height: auto;
+	background: #ffffaa;
+	display: -webkit-flex;
+	display: flex;
+}
+
+/*Headline in Sprechblase links*/
 .headerleft {
   color: rgba(0, 0, 0, 0.8);
   font-family: Arial, sans-serif;
   font-size: 80px;
   line-height: 30px;
   text-align: right;
-  padding-top: 100px;
-  float: left;
-  width: 49%;
+  padding-right: 20px;
+  padding-top: 50px;
 }
 
-/*Fließtext in Sprechbalse rechts*/
+/*Fließtext in Sprechblase rechts*/
 .right {
   color: rgba(0, 0, 0, 0.8);
   font-family: Arial, sans-serif;
   font-size: 20px;
   line-height: 10px;
   text-align: left;
-  padding-top: 200px;
-  float: right;
-  width: 46%;
+  padding-left: 20px;
+  padding-top: 170px;
 }
 
 /*Feld Arbeiten UNBEDINGT FARBE ANPASSEN*/
@@ -157,8 +164,52 @@ h2 {
 	flex-direction: row;
 }
 
+/*Ende gelber Hintergrund*/
 .end {
   width: 100%;
   height: 300px;
   background: #ffffaa;
+}
+
+/*Sprechblase gelb Pfeil nach oben*/
+.bubbletop2 {
+  position: relative;
+  width: auto;
+  height: 1500px;
+  background: #ffffaa;
+}
+
+.bubbletop2:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 65px 40px;
+  border-color: #ffffaa transparent;
+  display: block;
+  z-index: 1;
+  top: -40px;
+  left: 46%;
+}
+
+/*Mailadresse*/
+.middle {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*Rahmen Mailadresse*/
+.mail {
+  width: 25%;
+  height: auto;
+  background: transparent;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: rgba(0, 0, 0, 0.8);
+  border-width: 4px;
+  border-style: solid;
 }
