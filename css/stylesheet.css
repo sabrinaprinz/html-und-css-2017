@@ -227,9 +227,28 @@ h2 {
   position: absolute;
   border-style: solid;
   border-width: 0 65px 40px;
-  border-color: rgba(0, 0, 0, 0.8) transparent;
+  border-color: black transparent;
   display: block;
   z-index: 1;
   top: -40px;
   left: 46%;
+}
+
+.hovereffekt {
+  background: url("../images/beachparty.jpg") no-repeat;
+  height: auto;
+  width: 100%;
+}
+
+.hovereffekt:hover {
+  background: url("../images/nyc.jpg") no-repeat;
+}
+
+.img {
+  width: auto;
+  height: 100%;
+}
+
+.img:hover {
+  background: transparent;
 }
