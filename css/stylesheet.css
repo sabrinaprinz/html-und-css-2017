@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
 body {
   padding: 0;
   margin: 0 auto;
@@ -63,7 +65,7 @@ body {
 /*Fließtext in Sprechblase links*/
 .containerleft {
   color: rgba(0, 0, 0, 0.8);
-  font-family: Arial, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 100%;
   font-size: 2.2vw;
   line-height: 130%;
@@ -75,11 +77,11 @@ body {
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .headerright { font-size: 2vw }
+      .containerleft { font-size: 2vw }
 }
 
 @media only screen and (min-width:1025px) {
-      .headerright { font-size: 1.8vw }
+      .containerleft { font-size: 1.8vw }
 }
 
 /*Headline in Sprechblase rechts*/
@@ -94,14 +96,6 @@ body {
   margin-left: 3%;
   margin-top: 20%;
 }
-
-  @media only screen and (min-width:720px) and (max-width:1024px) {
-      .headerright { font-size: 2.8vw }
-  }
-
-  @media only screen and (min-width:1025px) {
-      .headerright { font-size: 1.6vw }
-  }
 
 /*ideen grafikdesign fotografie*/
 #container {
@@ -182,11 +176,11 @@ h2 {
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .headerright { font-size: 2vw }
+      .containerright { font-size: 2vw }
 }
 
 @media only screen and (min-width:1025px) {
-      .headerright { font-size: 1.8vw }
+      .containerright { font-size: 1.8vw }
 }
 
 /*Headline in Sprechblase links*/
@@ -201,14 +195,6 @@ h2 {
   margin-left: 30%;
   margin-top: 20%;
 }
-
-  @media only screen and (min-width:720px) and (max-width:1024px) {
-      .headerright { font-size: 2.8vw }
-  }
-
-  @media only screen and (min-width:1025px) {
-      .headerright { font-size: 1.6vw }
-  }
 
 /*Feld Arbeiten "responsive*/
 .flex-grid {
@@ -287,16 +273,16 @@ h2 {
   text-align: right;
   margin-left: 30%;
   margin-right: 3%;
-  margin-top: 30%;
-  margin-bottom: 20%;
+  margin-top: 25%;
+  margin-bottom: 15%;
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .headerright { font-size: 2vw }
+      .containerleft1 { font-size: 2vw }
 }
 
 @media only screen and (min-width:1025px) {
-      .headerright { font-size: 1.8vw }
+      .containerleft1 { font-size: 1.8vw }
 }
 
 /*Headline in Sprechblase rechts*/
@@ -309,16 +295,8 @@ h2 {
   text-align: left;
   margin-right: 30%;
   margin-left: 3%;
-  margin-top: 20%;
+  margin-top: 15%;
 }
-
-  @media only screen and (min-width:720px) and (max-width:1024px) {
-      .headerright { font-size: 2.8vw }
-  }
-
-  @media only screen and (min-width:1025px) {
-      .headerright { font-size: 1.6vw }
-  }
 
 /*Mailadresse "responsive"*/
 .middle {
@@ -342,7 +320,7 @@ h2 {
   width: 25%;
   height: auto;
   background: transparent;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
   border-color: rgba(0, 0, 0, 0.8);
@@ -375,7 +353,7 @@ h2 {
 .bubbletop3 {
   position: relative;
   width: auto;
-  height: 100px;
+  height: 7%;
   background: rgb(35, 35, 35);
 }
 
@@ -427,10 +405,8 @@ h2 {
 .logo {
   display: block;
   margin: 0 auto;
-  padding-bottom: 15%;
   height: 2%;
   width: auto;
-  background-color: red;
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
@@ -443,4 +419,11 @@ h2 {
 
 .logo:hover {
   opacity: 0.3;
+}
+
+/*Ende gelber Hintergrund*/
+.endcontact {
+  width: auto;
+  height: 15%;
+  background: rgb(248, 248, 248);
 }
