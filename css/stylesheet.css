@@ -106,43 +106,98 @@ body {
 	display: flex;
 }
 
-#box1 {
+#box {
 	-webkit-flex: 1;
 	flex: 1;
 	flex-direction: row;
 }
 
-#box2 {
-	-webkit-flex: 1;
-	flex: 1;
-	flex-direction: row;
+@media screen and (max-width: 760px) {
+  #container {
+    flex-direction: column;
+  }
 }
 
-#box3 {
-	-webkit-flex: 1;
-	flex: 1;
-	flex-direction: row;
-}
 
-/*Schrift ideen grafikdesign fotografie*/
+
+/*Schrift ideen grafikdesign fotografie "responsive"*/
 h2 {
   color: rgba(0, 0, 0, 0.8);
   font-family: Arial, sans-serif;
-  font-size: 20px;
+  font-size: 100%;
+  font-size: 1.5vw;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   width: 100%;
+}
+
+@media screen and (max-width: 760px) {
+  h2 {
+    font-size: 1.8vw;
+  }
 }
 
 .p1 {
   color: rgba(0, 0, 0, 0.8);
-  font-family: Arial, sans-serif;
-  font-size: 18px;
+  font-family: Open Sans, sans-serif;
+  font-size: 100%;
+  font-size: 1.5vw;
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 25%;
   padding-top: 100px;
   padding-bottom: 80px;
+}
+
+@media screen and (max-width: 760px) {
+  .p1 {
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 1.8vw;
+    padding-bottom: 0;
+  }
+}
+
+.p2 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Open Sans, sans-serif;
+  font-size: 100%;
+  font-size: 1.5vw;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 760px) {
+  .p2 {
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 1.8vw;
+    padding-bottom: 0;
+    padding-top: 50px;
+  }
+}
+
+.p3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Open Sans, sans-serif;
+  font-size: 100%;
+  font-size: 1.5vw;
+  text-align: center;
+  padding-right: 25%;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 760px) {
+  .p3 {
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 1.8vw;
+    padding-bottom: 80px;
+    padding-top: 50px;
+  }
 }
 
 /*Feld "work"*/
@@ -164,7 +219,7 @@ h2 {
 /*Fließtext in Sprechblase rechts*/
 .containerright {
   color: rgba(0, 0, 0, 0.8);
-  font-family: Arial, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 100%;
   font-size: 2.2vw;
   line-height: 130%;
@@ -266,7 +321,7 @@ h2 {
 /*Fließtext in Sprechblase links*/
 .containerleft1 {
   color: rgba(0, 0, 0, 0.8);
-  font-family: Arial, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 100%;
   font-size: 2.2vw;
   line-height: 130%;
@@ -301,10 +356,11 @@ h2 {
 /*Mailadresse "responsive"*/
 .middle {
   color: rgba(0, 0, 0, 0.8);
-  font-family: Arial, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 100%;
   font-size: 2.2vw;
   text-align: center;
+  padding: 1%;
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
