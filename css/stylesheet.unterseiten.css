@@ -46,10 +46,11 @@ p {
 }
 
 .pfeil {
+  position: relative;
   width: auto;
   height: 3%;
-  display: block;
-  margin: 0 auto;
+  left: 50%;
+  margin-left: -1.5%;
   margin-top: 5%;
 }
 
@@ -104,6 +105,18 @@ p {
   padding-bottom: 10%;
 }
 
+@media screen and (max-width: 760px) {
+  .image3 {
+    padding-bottom: 12%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .image3 {
+    padding-bottom: 15%;
+  }
+}
+
 /*Feld Arbeiten "responsive*/
 .flex-grid {
 	display: flex;
@@ -129,4 +142,34 @@ p {
 
 .blank {
 	height: 0;
+}
+
+/*Nach oben scrollen*/
+.pfeiltostart {
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  bottom: 70px;
+}
+
+@media screen and (max-width: 760px) {
+  .pfeiltostart {
+    width: 30px;
+    left: 50%;
+    margin-left: -15px;
+    bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pfeiltostart {
+    width: 28px;
+    left: 50%;
+    margin-left: -14px;
+    bottom: 55px;
+  }
+}
+
+.pfeiltostart:hover {
+  opacity: 0.3;
 }
