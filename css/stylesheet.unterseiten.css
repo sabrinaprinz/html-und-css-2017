@@ -174,7 +174,7 @@ p {
   opacity: 0.3;
 }
 
-/*Feld Arbeiten "responsive*/
+/*Feld Bilder "responsive*/
 .flex-grid1 {
 	display: flex;
 	flex-wrap: wrap;
@@ -194,4 +194,11 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+/*Ende Hintergrund Bilder*/
+.endpicture {
+  width: auto;
+  height: 10%;
+  background: rgb(248, 248, 248);
 }
