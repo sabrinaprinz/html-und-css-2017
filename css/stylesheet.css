@@ -422,23 +422,24 @@ h2 {
 
 /*Rahmen Mailadresse "responsive"*/
 .mail {
-  width: 25%;
+  position: absolute;
+  width: 200px;
   height: auto;
   background: transparent;
-  margin-bottom: 5%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 10%;
+  left: 50%;
+  margin-left: -100px;
   border-color: rgba(0, 0, 0, 0.8);
   border-width: 2px;
   border-style: solid;
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .mail { border-width: 2.5px; }
+      .mail { border-width: 2.5px; width: 250px; margin-left: -125px; }
 }
 
 @media only screen and (min-width:1025px) {
-      .mail { border-width: 4px; }
+      .mail { border-width: 4px; width: 350px; margin-left: -175px; }
 }
 
 .mail:hover {
@@ -452,6 +453,87 @@ h2 {
 
 .underline:link {
   text-decoration: none;
+}
+
+/*Feld Icon Instagram "responsive"*/
+.logo {
+  position: relative;
+  left: 50%;
+  margin-left: -20px;
+  width: auto;
+  height: 40px;
+  margin-top: 10%;
+
+}
+
+@media screen and (max-width: 760px) {
+  .logo {
+    height: 20px;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: 13%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    height: 30px;
+    left: 50%;
+    margin-left: -15px;
+  }
+}
+
+.logo:hover {
+  opacity: 0.3;
+}
+
+/*Nach oben scrollen*/
+.pfeiltostart {
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  bottom: -10%;
+}
+
+@media screen and (max-width: 760px) {
+  .pfeiltostart {
+    width: 30px;
+    left: 50%;
+    margin-left: -15px;
+    bottom: -14%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pfeiltostart {
+    width: 28px;
+    left: 50%;
+    margin-left: -14px;
+    bottom: -11%;
+  }
+}
+
+.pfeiltostart:hover {
+  opacity: 0.3;
+}
+
+/*Ende gelber Hintergrund*/
+.endcontact {
+  width: auto;
+  height: 15%;
+  background: rgb(248, 248, 248);
+}
+
+@media screen and (max-width: 760px) {
+  .endcontact {
+    height: 10%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .endcontact{
+    height: 13%;
+  }
 }
 
 /*Sprechblase Pfeil nach oben*/
@@ -472,53 +554,4 @@ h2 {
   top: -40px;
   left: 50%;
   margin-left: -65px;
-}
-
-/*Feld Icon Instagram "responsive"*/
-.logo {
-  position: relative;
-  left: 50%;
-  margin-left: -20px;
-  width: auto;
-  height: 40px;
-}
-
-@media screen and (max-width: 760px) {
-  .logo {
-    height: 20px;
-    left: 50%;
-    margin-left: -10px;
-  }
-}
-
-.logo:hover {
-  opacity: 0.3;
-}
-
-/*Nach oben scrollen*/
-.pfeiltostart {
-  position: absolute;
-  left: 50%;
-  margin-left: -20px;
-  margin-top: 75px;
-}
-
-@media screen and (max-width: 760px) {
-  .pfeiltostart {
-    width: 30px;
-    left: 50%;
-    margin-left: -15px;
-    margin-top: 55px;
-  }
-}
-
-.pfeiltostart:hover {
-  opacity: 0.3;
-}
-
-/*Ende gelber Hintergrund*/
-.endcontact {
-  width: auto;
-  height: 15%;
-  background: rgb(248, 248, 248);
 }
