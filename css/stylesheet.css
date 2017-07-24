@@ -336,24 +336,32 @@ h2 {
   color: black;
   font-family: montserrat;
   text-align: center;
-  font-size: 30px;
-  line-height: 20px;
+  font-size: 25px;
+  line-height: 15px;
   width: auto;
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .text { font-size: 40px; }
+      .text { font-size: 40px; line-height: 24px; }
 }
 
 @media only screen and (min-width:1025px) {
-      .text { font-size: 40px;  }
+      .text { font-size: 40px; line-height: 24px;  }
 }
 
 /*Ende gelber Hintergrund*/
 .end {
   width: 100%;
-  height: 300px;
+  height: 130px;
   background: rgb(248, 248, 248);
+}
+
+@media only screen and (min-width:720px) and (max-width:1024px) {
+      .end { height: 200px; }
+}
+
+@media only screen and (min-width:1025px) {
+      .end { height: 250px; }
 }
 
 /*Sprechblase Pfeil nach oben "contact"*/
