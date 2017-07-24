@@ -287,7 +287,7 @@ h2 {
 	flex-grow: 1;
 	flex-shrink: 0;
 	flex-basis: 33.3333%;
-	flex-basis: 350px;
+	flex-basis: 200px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -295,6 +295,14 @@ h2 {
 
 .blank {
 	height: 0;
+}
+
+@media only screen and (min-width:720px) and (max-width:1024px) {
+      .flex-grid-item { flex-basis: 350px; }
+}
+
+@media only screen and (min-width:1025px) {
+      .flex-grid-item { flex-basis: 350px;  }
 }
 
 /*Image Overlay Hover*/
