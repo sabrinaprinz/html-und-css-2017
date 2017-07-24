@@ -243,21 +243,21 @@ h2 {
   color: rgba(0, 0, 0, 0.8);
   font-family: Open Sans, sans-serif;
   font-size: 100%;
-  font-size: 2.2vw;
+  font-size: 2.8vw;
   line-height: 130%;
   text-align: left;
   margin-left: 3%;
-  margin-right: 30%;
+  margin-right: 20%;
   margin-top: 28%;
   margin-bottom: 20%;
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .containerright { font-size: 2vw }
+      .containerright { font-size: 2.3vw; margin-right: 20%; }
 }
 
 @media only screen and (min-width:1025px) {
-      .containerright { font-size: 1.8vw }
+      .containerright { font-size: 1.8vw; margin-right: 30%;  }
 }
 
 /*Headline in Sprechblase links*/
