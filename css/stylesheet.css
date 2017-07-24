@@ -86,7 +86,7 @@ body {
   font-family: Open Sans, sans-serif;
   font-size: 100%;
   font-size: 2.8vw;
-  line-height: 130%;
+  line-height: 135%;
   text-align: right;
   margin-left: 20%;
   margin-right: 3%;
@@ -95,11 +95,11 @@ body {
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .containerleft { font-size: 2.3vw; margin-left: 20%; }
+      .containerleft { font-size: 2.3vw; margin-left: 20%; line-height: 130%; }
 }
 
 @media only screen and (min-width:1025px) {
-      .containerleft { font-size: 1.8vw; margin-left: 30%;  }
+      .containerleft { font-size: 1.8vw; margin-left: 30%; line-height: 130%;  }
 }
 
 /*Headline in Sprechblase rechts*/
@@ -167,7 +167,7 @@ h2 {
   font-family: Open Sans, sans-serif;
   font-size: 100%;
   font-size: 2.8vw;
-  line-height: 130%;
+  line-height: 135%;
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
@@ -176,11 +176,11 @@ h2 {
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .p1 { font-size: 2.3vw; padding-left: 20%; padding-right: 20%; padding-bottom: 10px; }
+      .p1 { font-size: 2.3vw; padding-left: 20%; padding-right: 20%; padding-bottom: 10px; line-height: 130%; }
 }
 
 @media only screen and (min-width:1025px) {
-      .p1 { font-size: 1.8vw; padding-left: 20%; padding-right: 10%; padding-bottom: 80px; }
+      .p1 { font-size: 1.8vw; padding-left: 20%; padding-right: 10%; padding-bottom: 80px; line-height: 130%; }
 }
 
 .p2 {
@@ -188,7 +188,7 @@ h2 {
   font-family: Open Sans, sans-serif;
   font-size: 100%;
   font-size: 2.8vw;
-  line-height: 130%;
+  line-height: 135%;
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
@@ -197,11 +197,11 @@ h2 {
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .p2 { font-size: 2.3vw; padding-left: 20%; padding-right: 20%; padding-bottom: 10px; padding-top: 60px; }
+      .p2 { font-size: 2.3vw; padding-left: 20%; padding-right: 20%; padding-bottom: 10px; padding-top: 60px; line-height: 130%; }
 }
 
 @media only screen and (min-width:1025px) {
-      .p2 { font-size: 1.8vw; padding-left: 10%; padding-right: 10%; padding-bottom: 80px; padding-top: 100px; }
+      .p2 { font-size: 1.8vw; padding-left: 10%; padding-right: 10%; padding-bottom: 80px; padding-top: 100px; line-height: 130%; }
 }
 
 .p3 {
@@ -209,7 +209,7 @@ h2 {
   font-family: Open Sans, sans-serif;
   font-size: 100%;
   font-size: 2.8vw;
-  line-height: 130%;
+  line-height: 135%;
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
@@ -218,11 +218,11 @@ h2 {
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .p3 { font-size: 2.3vw; padding-left: 20%; padding-right: 20%; padding-bottom: 80px; padding-top: 60px; }
+      .p3 { font-size: 2.3vw; padding-left: 20%; padding-right: 20%; padding-bottom: 80px; padding-top: 60px; line-height: 130%; }
 }
 
 @media only screen and (min-width:1025px) {
-      .p3 { font-size: 1.8vw; padding-left: 10%; padding-right: 20%; padding-bottom: 80px; padding-top: 100px; }
+      .p3 { font-size: 1.8vw; padding-left: 10%; padding-right: 20%; padding-bottom: 80px; padding-top: 100px; line-height: 130%; }
 }
 
 /*Feld "work"*/
@@ -247,7 +247,7 @@ h2 {
   font-family: Open Sans, sans-serif;
   font-size: 100%;
   font-size: 2.8vw;
-  line-height: 130%;
+  line-height: 135%;
   text-align: left;
   margin-left: 3%;
   margin-right: 20%;
@@ -256,11 +256,11 @@ h2 {
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .containerright { font-size: 2.3vw; margin-right: 20%; }
+      .containerright { font-size: 2.3vw; margin-right: 20%; line-height: 130%; }
 }
 
 @media only screen and (min-width:1025px) {
-      .containerright { font-size: 1.8vw; margin-right: 30%;  }
+      .containerright { font-size: 1.8vw; margin-right: 30%; line-height: 130%;  }
 }
 
 /*Headline in Sprechblase links*/
@@ -397,21 +397,21 @@ h2 {
   color: rgba(0, 0, 0, 0.8);
   font-family: Open Sans, sans-serif;
   font-size: 100%;
-  font-size: 2.2vw;
-  line-height: 130%;
+  font-size: 2.8vw;
+  line-height: 135%;
   text-align: right;
-  margin-left: 30%;
+  margin-left: 20%;
   margin-right: 3%;
   margin-top: 25%;
   margin-bottom: 15%;
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .containerleft1 { font-size: 2vw }
+      .containerleft1 { font-size: 2.3vw; margin-left: 20%; line-height: 130%; }
 }
 
 @media only screen and (min-width:1025px) {
-      .containerleft1 { font-size: 1.8vw }
+      .containerleft1 { font-size: 1.8vw; margin-left: 30%; line-height: 130%;  }
 }
 
 /*Headline in Sprechblase rechts*/
@@ -432,39 +432,39 @@ h2 {
   color: rgba(0, 0, 0, 0.8);
   font-family: Open Sans, sans-serif;
   font-size: 100%;
-  font-size: 2.2vw;
+  font-size: 2.8vw;
   text-align: center;
-  padding: 1%;
+  padding: 0;
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .middle { font-size: 2vw }
+      .middle { font-size: 2.3vw; }
 }
 
 @media only screen and (min-width:1025px) {
-      .middle { font-size: 1.8vw }
+      .middle { font-size: 1.8vw; }
 }
 
 /*Rahmen Mailadresse "responsive"*/
 .mail {
   position: absolute;
-  width: 200px;
+  width: 250px;
   height: auto;
   background: transparent;
   margin-bottom: 10%;
   left: 50%;
-  margin-left: -100px;
+  margin-left: -125px;
   border-color: rgba(0, 0, 0, 0.8);
-  border-width: 2px;
+  border-width: 2.4px;
   border-style: solid;
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .mail { border-width: 2.5px; width: 250px; margin-left: -125px; }
+      .mail { border-width: 3px; width: 300px; margin-left: -150px; }
 }
 
 @media only screen and (min-width:1025px) {
-      .mail { border-width: 4px; width: 350px; margin-left: -175px; }
+      .mail { border-width: 3.8px; width: 350px; margin-left: -175px; }
 }
 
 .mail:hover {
@@ -484,29 +484,20 @@ h2 {
 .logo {
   position: relative;
   left: 50%;
-  margin-left: -20px;
+  margin-left: -15px;
   width: auto;
-  height: 40px;
-  margin-top: 10%;
-
+  height: 30px;
+  margin-top: 15%;
 }
 
-@media screen and (max-width: 760px) {
-  .logo {
-    height: 20px;
-    left: 50%;
-    margin-left: -10px;
-    margin-top: 13%;
-  }
+@media only screen and (min-width:720px) and (max-width:1024px) {
+      .logo { height: 38px; left: 50%; margin-left: -19px; margin-top: 13%; }
 }
 
-@media screen and (max-width: 1024px) {
-  .logo {
-    height: 30px;
-    left: 50%;
-    margin-left: -15px;
-  }
+@media only screen and (min-width:1025px) {
+      .logo { height: 40px;left: 50%; margin-left: -20px; margin-top: 10%; }
 }
+
 
 .logo:hover {
   opacity: 0.3;
@@ -515,27 +506,18 @@ h2 {
 /*Nach oben scrollen*/
 .pfeiltostart {
   position: absolute;
+  width: 30px;
   left: 50%;
-  margin-left: -20px;
-  bottom: -10%;
+  margin-left: -15px;
+  bottom: -11%;
 }
 
-@media screen and (max-width: 760px) {
-  .pfeiltostart {
-    width: 30px;
-    left: 50%;
-    margin-left: -15px;
-    bottom: -14%;
-  }
+@media only screen and (min-width:720px) and (max-width:1024px) {
+      .pfeiltostart { width: 30px; margin-left: -15px; bottom: -9%; }
 }
 
-@media screen and (max-width: 1024px) {
-  .pfeiltostart {
-    width: 28px;
-    left: 50%;
-    margin-left: -14px;
-    bottom: -11%;
-  }
+@media only screen and (min-width:1025px) {
+      .pfeiltostart { width: 40px; margin-left: -20px; bottom: -10%; }
 }
 
 .pfeiltostart:hover {
@@ -549,16 +531,12 @@ h2 {
   background: rgb(248, 248, 248);
 }
 
-@media screen and (max-width: 760px) {
-  .endcontact {
-    height: 10%;
-  }
+@media only screen and (min-width:720px) and (max-width:1024px) {
+      .endcontact { height: 15%; }
 }
 
-@media screen and (max-width: 1024px) {
-  .endcontact{
-    height: 13%;
-  }
+@media only screen and (min-width:1025px) {
+      .endcontact { height: 17%; }
 }
 
 /*Sprechblase Pfeil nach oben*/
