@@ -336,17 +336,17 @@ h2 {
   color: black;
   font-family: montserrat;
   text-align: center;
-  font-size: 25px;
-  line-height: 15px;
+  font-size: 35px;
+  line-height: 45px;
   width: auto;
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .text { font-size: 40px; line-height: 24px; }
+      .text { font-size: 37px; line-height: 45px; }
 }
 
 @media only screen and (min-width:1025px) {
-      .text { font-size: 40px; line-height: 24px;  }
+      .text { font-size: 37px; line-height: 45px;  }
 }
 
 /*Ende gelber Hintergrund*/
