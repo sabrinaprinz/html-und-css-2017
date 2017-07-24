@@ -85,21 +85,21 @@ body {
   color: rgba(0, 0, 0, 0.8);
   font-family: Open Sans, sans-serif;
   font-size: 100%;
-  font-size: 2.2vw;
+  font-size: 3vw;
   line-height: 130%;
   text-align: right;
-  margin-left: 30%;
+  margin-left: 20%;
   margin-right: 3%;
   margin-top: 58%;
   margin-bottom: 20%;
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
-      .containerleft { font-size: 2vw }
+      .containerleft { font-size: 2.3vw; margin-left: 20%; }
 }
 
 @media only screen and (min-width:1025px) {
-      .containerleft { font-size: 1.8vw }
+      .containerleft { font-size: 1.8vw; margin-left: 30%;  }
 }
 
 /*Headline in Sprechblase rechts*/
