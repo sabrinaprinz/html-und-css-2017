@@ -158,7 +158,7 @@ p {
   width: 35px;
   left: 50%;
   margin-left: -17.5px;
-  bottom: 85px;
+  bottom: 80px;
 }
 
 @media only screen and (min-width:720px) and (max-width:1024px) {
@@ -198,6 +198,14 @@ p {
 /*Ende Hintergrund Bilder*/
 .endpicture {
   width: auto;
-  height: 10%;
+  height: 9%;
   background: rgb(248, 248, 248);
+}
+
+@media only screen and (min-width:720px) and (max-width:1024px) {
+      .endpicture { height: 10%; }
+}
+
+@media only screen and (min-width:1025px) {
+      .endpicture { height: 10%; }
 }
