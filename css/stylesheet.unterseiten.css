@@ -48,7 +48,7 @@ p {
 .pfeil {
   position: relative;
   width: auto;
-  height: 3%;
+  height: 4%;
   left: 50%;
   margin-left: -1.5%;
   margin-top: 5%;
@@ -147,27 +147,18 @@ p {
 /*Nach oben scrollen*/
 .pfeiltostart {
   position: absolute;
+  width: 35px;
   left: 50%;
-  margin-left: -20px;
-  bottom: 70px;
+  margin-left: -17.5px;
+  bottom: 85px;
 }
 
-@media screen and (max-width: 760px) {
-  .pfeiltostart {
-    width: 30px;
-    left: 50%;
-    margin-left: -15px;
-    bottom: 40px;
-  }
+@media only screen and (min-width:720px) and (max-width:1024px) {
+      .pfeiltostart { width: 40px; margin-left: -20px; bottom: 100px;}
 }
 
-@media screen and (max-width: 1024px) {
-  .pfeiltostart {
-    width: 28px;
-    left: 50%;
-    margin-left: -14px;
-    bottom: 55px;
-  }
+@media only screen and (min-width:1025px) {
+      .pfeiltostart { width: 40px; margin-left: -20px; bottom: 100px; }
 }
 
 .pfeiltostart:hover {
